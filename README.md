@@ -340,7 +340,10 @@ The notebook provides **visual plots** for each method:
 │   ├── 🖼️ 2.png                      # Healthy response modeling (Case 2)
 │   ├── 🖼️ 3.png                      # Reduced pancreatic sensitivity (Case 3)
 │   └── 🖼️ 4.png                      # Enhanced pancreatic response (Case 4)
-└── 📁 Papers/                         # Literature review and references
+└── 📁 Papers/                        # Literature review and references
+    ├── 📄 Reference Books/           
+    │    ├── 📗 Scheisser             # Our Biomedical Modelling Reference
+    │    ├── 📖 Diabetes Chapter      # The Proposed Chapter
     ├── 📄 Paper1.pdf                 # Glucose-insulin dynamics modeling
     ├── 📄 Paper2.pdf                 # Physics-informed neural networks
     ├── 📄 Paper3.pdf                 # Numerical methods for biomedical ODEs
