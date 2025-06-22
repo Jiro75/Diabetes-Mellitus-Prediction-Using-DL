@@ -48,35 +48,29 @@ This notebook implements and compares **five numerical methods** for solving sys
     <tr>
       <th>Method</th>
       <th>Description</th>
-      <th>Book</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>ISODA</td>
       <td>A stiff ODE solver using adaptive step-size control and automatic method switching (e.g., BDF and Adams). Often used in real-world stiff ODE systems.</td>
-      <td>✅</td>
     </tr>
 	     <tr>
       <td>Classical 4th-order Runge-Kutta method</td>
       <td>Widely used, fixed-step solver. Computes intermediate slopes (k1–k4) to estimate the solution with good accuracy.</td>
-      <td>✅</td>
     </tr>
     <tr>
       <td>Newton-Raphson with Backward Euler</td>
       <td>A first-order implicit method solving nonlinear equations at each step using Newton-Raphson. Very stable for stiff problems but requires Jacobian.</td>
-      <td>❌</td>
     </tr>
     <tr>
       <td>Trapezoidal</td>
       <td>An implicit method averaging the slope at the current and next time steps. It’s A-stable and more suited for moderately stiff problems.</td>
-      <td>❌</td>
     </tr>
  
 <tr>
       <td>Midpoint</td>
       <td>A second-order explicit method that estimates midpoint to improve over Euler’s method. More accurate but still not suitable for stiff equations.</td>
-      <td>❌</td>
     </tr>
   </tbody>
 	
@@ -341,7 +335,7 @@ The notebook provides **visual plots** for each method:
 │   ├── 🖼️ 3.png                      # Reduced pancreatic sensitivity (Case 3)
 │   └── 🖼️ 4.png                      # Enhanced pancreatic response (Case 4)
 └── 📁 Papers/                        # Literature review and references
-    ├── 📄 Reference Books/           
+    ├── 📁 Reference Books/           
     │    ├── 📗 Scheisser             # Our Biomedical Modelling Reference
     │    ├── 📖 Diabetes Chapter      # The Proposed Chapter
     ├── 📄 Paper1.pdf                 # Glucose-insulin dynamics modeling
@@ -361,18 +355,18 @@ NumPy, SciPy, Matplotlib, Pandas
 
 ### Installation
 ```bash
-git clone https://github.com/Ibrahim-Abdelqader/ML-Numerical-Diabetes-Glucose-ODE-Modeling.git
-cd ML-Numerical-Diabetes-Glucose-ODE-Modeling
-pip install -r requirements.txt
+git clone https://github.com/Jiro75/Diabetes-Mellitus-Prediction-Using-DL.git
+cd Diabetes-Mellitus-Prediction-Using-DL
+pip install tensorflow numpy matplotlib scipy pandas
 ```
 
 ### Running the Code
 ```bash
 # Classical numerical methods
-jupyter notebook notebooks/ODE_Numerical_methods.ipynb
+jupyter notebook ODE_Numerical_methods.ipynb
 
 # Physics-Informed Neural Network
-jupyter notebook notebooks/PINN.ipynb
+jupyter notebook PINN.ipynb
 ```
 
 ## 📈 Simulation Cases
@@ -400,7 +394,6 @@ Each case tests the robustness of both numerical and ML approaches across differ
 
 ## 🔮 Future Directions
 
-- **Real Clinical Data Integration**: Validation with hospital GTT datasets
 - **Parameter Estimation**: Inverse problem solving for patient-specific parameters
 - **Multi-Scale Modeling**: Integration of cellular and organ-level dynamics
 - **Real-Time Implementation**: Development of clinical decision support tools
@@ -410,6 +403,7 @@ Each case tests the robustness of both numerical and ML approaches across differ
 **Course**: SBE2250 - Numerical Methods in Biomedical Engineering  
 **Institution**: Faculty of Engineering, Cairo University  
 **Instructor**: Dr. Muhammad Rushdi  
+**TA**: Eng. Alaa Tarek  
 **Academic Year**: 2024/2025, Spring Semester
 
 ## Contributors <a name = "contributors"></a>
@@ -488,7 +482,7 @@ Each case tests the robustness of both numerical and ML approaches across differ
 4. **Abbas, H.T. et al.** "Predicting long-term type 2 diabetes with support vector machine using oral glucose tolerance test", PLOS ONE, 14(12): e0219636, 2019
 5. **Kaul, S. and Kumar, Y.** "Artificial Intelligence-based Learning Techniques for Diabetes Prediction: Challenges and Systematic Review", SN Computer Science, 1:322, 2020
 
-### 🔗 Useful Links
+## 🔗 Useful Links
 - [📊 Project Presentation](https://www.canva.com/design/DAGrBJSej2g/SgxQlQuexNzPAiaUbihxpQ/edit)
 - [📖 Physics-Based Deep Learning](https://physicsbaseddeeplearning.org/)
 - [🧠 Physics-Informed ML Review](https://www.nature.com/articles/s42254-021-00314-5)
@@ -506,4 +500,3 @@ For questions, collaborations, or further discussion:
 🔗 LinkedIn: [Connect with me](https://linkedin.com/in/mostafahany4705)  
 
 
-*This project demonstrates the intersection of traditional computational methods and modern machine learning in solving real-world biomedical engineering problems. It serves as both an educational resource and a foundation for future research in computational medicine.*
