@@ -410,7 +410,7 @@ Each case tests the robustness of both numerical and ML approaches across differ
 <table align="center">
   <tr>
     <td align="center">
-      <a href="https://github.com/hamdy-cufe-eng" target="_blank">
+      <a href="https://github.com/hamdy-fathi" target="_blank">
         <img src="https://avatars.githubusercontent.com/u/183446123?s=96&v=4" width="100px;" alt="Hamdy Ahmed"/><br />
         <sub><b>Hamdy Ahmed</b></sub>
       </a>
