@@ -319,23 +319,32 @@ The notebook provides **visual plots** for each method:
 
 ```
 📦 ML-Numerical-Diabetes-Glucose-ODE-Modeling/
-├── 📓 notebooks/
-│   ├── ODE_Numerical_methods.ipynb    # Classical numerical implementations
-│   └── PINN.ipynb                     # Physics-Informed Neural Network
-├── 📄 docs/
-│   ├── project_report.pdf             # Comprehensive technical report
-│   └── presentation.pdf               # Project presentation slides
-├── 🐍 src/
-│   ├── numerical_solvers.py           # ODE solver implementations
-│   ├── pinn_model.py                  # PINN architecture and training
-│   └── visualization.py               # Plotting and analysis tools
-├── 📁 data/
-│   └── simulation_results.csv         # Generated simulation data
-├── 🖼️ figures/
-│   ├── glucose_trajectories.png       # Comparative glucose curves
-│   ├── insulin_responses.png          # Insulin response patterns
-│   └── error_analysis.png             # Method comparison plots
-└── 📋 requirements.txt                # Python dependencies
+├── 📓 ODE_Numerical_methods.ipynb     # Classical numerical methods implementation
+├── 📓 PINN.ipynb                      # Physics-Informed Neural Network model
+├── 📄 Cast Study Report.pdf           # Comprehensive project case study
+├── 📄 README.md                       # Project documentation (this file)
+├── 📄 LICENSE                         # MIT License file
+├── 📁 Methods_Screenshots/            # Numerical methods results visualization
+│   ├── 🖼️ Screenshot_1.png           # LSODA method results
+│   ├── 🖼️ Screenshot_2.png           # RK45 method comparison
+│   ├── 🖼️ Screenshot_3.png           # Trapezoidal method analysis
+│   ├── 🖼️ Screenshot_4.png           # Backward Euler results
+│   ├── 🖼️ Screenshot_5.png           # Comparative trajectories (all methods)
+│   ├── 🖼️ Screenshot_6.png           # Glucose concentration plots
+│   ├── 🖼️ Screenshot_7.png           # Insulin concentration plots
+│   ├── 🖼️ Screenshot_8.png           # Error analysis visualization
+│   ├── 🖼️ Screenshot_9.png           # Performance metrics comparison
+│   └── 🖼️ Screenshot_10.png          # Method ranking and statistics
+├── 📁 PINN_Screenshots/               # Physics-Informed Neural Network results
+│   ├── 🖼️ 1.png                      # PINN vs ODE comparison (Case 1)
+│   ├── 🖼️ 2.png                      # Healthy response modeling (Case 2)
+│   ├── 🖼️ 3.png                      # Reduced pancreatic sensitivity (Case 3)
+│   └── 🖼️ 4.png                      # Enhanced pancreatic response (Case 4)
+└── 📁 Papers/                         # Literature review and references
+    ├── 📄 Paper1.pdf                 # Glucose-insulin dynamics modeling
+    ├── 📄 Paper2.pdf                 # Physics-informed neural networks
+    ├── 📄 Paper3.pdf                 # Numerical methods for biomedical ODEs
+    └── 📄 Paper4.pdf                 # Machine learning in diabetes prediction
 ```
 
 ## 🚀 Quick Start
